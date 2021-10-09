@@ -1,0 +1,84 @@
+2021/06/30 15:28:20 AzcopyVersion  10.10.0
+2021/06/30 15:28:20 OS-Environment  windows
+2021/06/30 15:28:20 OS-Architecture  amd64
+2021/06/30 15:28:20 Log times are in UTC. Local time is 30 Jun 2021 12:28:20
+2021/06/30 15:28:20 Job-Command copy https://elevarbi.blob.core.windows.net/blob-bibrasil/LegoBi/20210629CargaHorariaUNIFG.CSV?se=2030-09-11t23%3A59%3A49z&sig=-REDACTED-&sp=rwdlacup&spr=https&srt=sco&ss=bfqt&st=2019-10-04t14%3A59%3A49z&sv=2018-03-28 C:\Users\jdlacerda\Downloads\20210629CargaHorariaUNIFG.CSV --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --recursive --trusted-microsoft-suffixes= 
+2021/06/30 15:28:20 Number of CPUs: 8
+2021/06/30 15:28:20 Max file buffer RAM 4.000 GB
+2021/06/30 15:28:20 Max concurrent network operations: 128 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2021/06/30 15:28:20 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2021/06/30 15:28:20 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2021/06/30 15:28:20 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2021/06/30 15:28:20 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2021/06/30 15:28:20 Max open files when downloading: 2147483119 (auto-computed)
+2021/06/30 15:28:20 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2021-06-30T15:28:14Z or --include-after=2021-06-30T15:28:14Z
+2021/06/30 15:28:20 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2021/06/30 15:28:20 JobID=618304fd-08ed-4247-55d9-872c4e321794, credential type: Anonymous
+2021/06/30 15:28:20 Final job part has been created
+2021/06/30 15:28:20 scheduling JobID=618304fd-08ed-4247-55d9-872c4e321794, Part#=0, Transfer#=0, priority=0
+2021/06/30 15:28:20 Final job part has been scheduled
+2021/06/30 15:28:20 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 27
+2021/06/30 15:28:20 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:20 INFO: [P#0-T#0] has worker 37 which is processing TRANSFER
+2021/06/30 15:28:21 ==> REQUEST/RESPONSE (Try=1/181.5133ms, OpTime=553.3838ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://elevarbi.blob.core.windows.net/blob-bibrasil/LegoBi/20210629CargaHorariaUNIFG.CSV?se=2030-09-11t23%3A59%3A49z&sig=-REDACTED-&sp=rwdlacup&spr=https&srt=sco&ss=bfqt&st=2019-10-04t14%3A59%3A49z&sv=2018-03-28&timeout=901
+   X-Ms-Request-Id: [b1ab981f-e01e-000f-22c4-6d3683000000]
+
+2021/06/30 15:28:21 ==> REQUEST/RESPONSE (Try=1/198.4681ms, OpTime=570.3386ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://elevarbi.blob.core.windows.net/blob-bibrasil/LegoBi/20210629CargaHorariaUNIFG.CSV?se=2030-09-11t23%3A59%3A49z&sig=-REDACTED-&sp=rwdlacup&spr=https&srt=sco&ss=bfqt&st=2019-10-04t14%3A59%3A49z&sv=2018-03-28&timeout=901
+   X-Ms-Request-Id: [023cb6f0-e01e-0122-05c4-6df316000000]
+
+2021/06/30 15:28:21 ==> REQUEST/RESPONSE (Try=1/326.3674ms, OpTime=695.2455ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://elevarbi.blob.core.windows.net/blob-bibrasil/LegoBi/20210629CargaHorariaUNIFG.CSV?se=2030-09-11t23%3A59%3A49z&sig=-REDACTED-&sp=rwdlacup&spr=https&srt=sco&ss=bfqt&st=2019-10-04t14%3A59%3A49z&sv=2018-03-28&timeout=901
+   X-Ms-Request-Id: [f429873e-401e-00ec-01c4-6dd30c000000]
+
+2021/06/30 15:28:21 ==> REQUEST/RESPONSE (Try=1/400.1697ms, OpTime=769.0478ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://elevarbi.blob.core.windows.net/blob-bibrasil/LegoBi/20210629CargaHorariaUNIFG.CSV?se=2030-09-11t23%3A59%3A49z&sig=-REDACTED-&sp=rwdlacup&spr=https&srt=sco&ss=bfqt&st=2019-10-04t14%3A59%3A49z&sv=2018-03-28&timeout=901
+   X-Ms-Request-Id: [30fcae68-201e-0019-46c4-6df71d000000]
+
+2021/06/30 15:28:21 ==> REQUEST/RESPONSE (Try=1/431.6002ms, OpTime=803.4707ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://elevarbi.blob.core.windows.net/blob-bibrasil/LegoBi/20210629CargaHorariaUNIFG.CSV?se=2030-09-11t23%3A59%3A49z&sig=-REDACTED-&sp=rwdlacup&spr=https&srt=sco&ss=bfqt&st=2019-10-04t14%3A59%3A49z&sv=2018-03-28&timeout=901
+   X-Ms-Request-Id: [5d683188-e01e-00c8-3bc4-6d4a42000000]
+
+2021/06/30 15:28:22 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  4, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:22 0.9 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 135.4066
+2021/06/30 15:28:24 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  4, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:24 0.9 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:26 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  4, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:26 0.9 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:28 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  4, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:28 0.9 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:30 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  4, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:30 0.9 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:32 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  4, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:32 0.9 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:34 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  4, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:34 0.9 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:36 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  3, S:  0, P:  2, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:36 25.7 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:38 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  3, S:  0, P:  2, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:38 25.7 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:40 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  3, S:  0, P:  2, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:40 25.7 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:42 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  3, S:  0, P:  2, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:42 25.7 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:44 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  3, S:  0, P:  2, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:44 25.7 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:46 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  3, S:  0, P:  2, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:46 25.7 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:48 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  3, S:  0, P:  2, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:48 25.7 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:50 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  3, S:  0, P:  2, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:50 25.7 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:52 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  3, S:  0, P:  2, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:52 25.7 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:54 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  2, S:  0, P:  3, Q:  0, D:  0, E:  0, T:  5, GRs: 128
+2021/06/30 15:28:54 50.5 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:56 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  3, Q:  0, D:  0, E:  0, T:  4, GRs: 128
+2021/06/30 15:28:56 75.2 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:58 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  3, Q:  0, D:  0, E:  0, T:  4, GRs: 128
+2021/06/30 15:28:58 75.2 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/06/30 15:28:59 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\jdlacerda\Downloads\20210629CargaHorariaUNIFG.CSV
+2021/06/30 15:28:59 JobID=618304fd-08ed-4247-55d9-872c4e321794, Part#=0, TransfersDone=1 of 1
+2021/06/30 15:28:59 all parts of entire Job 618304fd-08ed-4247-55d9-872c4e321794 successfully completed, cancelled or paused
+2021/06/30 15:29:00 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 128

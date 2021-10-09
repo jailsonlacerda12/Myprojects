@@ -1,0 +1,30 @@
+2021/02/10 13:44:59 AzcopyVersion  10.7.0
+2021/02/10 13:44:59 OS-Environment  windows
+2021/02/10 13:44:59 OS-Architecture  amd64
+2021/02/10 13:44:59 Log times are in UTC. Local time is 10 Feb 2021 10:44:59
+2021/02/10 13:44:59 Job-Command copy https://elevarbi.blob.core.windows.net/blob-bibrasil/LegoBi/20210210CampusPredioSalaFMU.CSV?se=2030-09-11t23%3A59%3A49z&sig=-REDACTED-&sp=rwdlacup&spr=https&srt=sco&ss=bfqt&st=2019-10-04t14%3A59%3A49z&sv=2018-03-28 C:\Users\JDLACE~1\AppData\Local\Temp\161296469841414\20210210CampusPredioSalaFMU.CSV --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --blob-type BlockBlob --recursive 
+2021/02/10 13:44:59 Number of CPUs: 8
+2021/02/10 13:44:59 Max file buffer RAM 4.000 GB
+2021/02/10 13:44:59 Max concurrent network operations: 128 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2021/02/10 13:44:59 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2021/02/10 13:44:59 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2021/02/10 13:44:59 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2021/02/10 13:44:59 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2021/02/10 13:44:59 Max open files when downloading: 2147483119 (auto-computed)
+2021/02/10 13:44:59 ISO 8601 START TIME: to copy files that changed after this job started, use the parameter --include-after=2021-02-10T13:44:53Z
+2021/02/10 13:44:59 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2021/02/10 13:44:59 Final job part has been created
+2021/02/10 13:44:59 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  0
+2021/02/10 13:44:59 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/02/10 13:44:59 JobID=69a1ea60-a601-8c4c-55e0-ec2cbf2d6dd8, credential type: Anonymous
+2021/02/10 13:44:59 scheduling JobID=69a1ea60-a601-8c4c-55e0-ec2cbf2d6dd8, Part#=0, Transfer#=0, priority=0
+2021/02/10 13:44:59 Final job part has been scheduled
+2021/02/10 13:44:59 INFO: [P#0-T#0] has worker 11 which is processing TRANSFER
+2021/02/10 13:44:59 ==> REQUEST/RESPONSE (Try=1/245.4148ms, OpTime=606.3599ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://elevarbi.blob.core.windows.net/blob-bibrasil/LegoBi/20210210CampusPredioSalaFMU.CSV?se=2030-09-11t23%3A59%3A49z&sig=-REDACTED-&sp=rwdlacup&spr=https&srt=sco&ss=bfqt&st=2019-10-04t14%3A59%3A49z&sv=2018-03-28&timeout=901
+   X-Ms-Request-Id: [514e3d62-501e-00bc-2eb2-ffcc04000000]
+
+2021/02/10 13:45:00 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\JDLACE~1\AppData\Local\Temp\161296469841414\20210210CampusPredioSalaFMU.CSV
+2021/02/10 13:45:00 JobID=69a1ea60-a601-8c4c-55e0-ec2cbf2d6dd8, Part#=0, TransfersDone=1 of 1
+2021/02/10 13:45:00 all parts of entire Job 69a1ea60-a601-8c4c-55e0-ec2cbf2d6dd8 successfully completed, cancelled or paused
+2021/02/10 13:45:01 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 128

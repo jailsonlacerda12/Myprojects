@@ -1,0 +1,30 @@
+2021/03/30 18:35:38 AzcopyVersion  10.7.0
+2021/03/30 18:35:38 OS-Environment  windows
+2021/03/30 18:35:38 OS-Architecture  amd64
+2021/03/30 18:35:38 Log times are in UTC. Local time is 30 Mar 2021 15:35:38
+2021/03/30 18:35:38 Job-Command remove https://elevarbi.blob.core.windows.net/blob-bibrasil/LegoBi/20210325CargaHorariaIBMR.CSV?se=2030-09-11t23%3A59%3A49z&sig=-REDACTED-&sp=rwdlacup&spr=https&srt=sco&ss=bfqt&st=2019-10-04t14%3A59%3A49z&sv=2018-03-28 --output-type=json --cancel-from-stdin --recursive 
+2021/03/30 18:35:38 Number of CPUs: 8
+2021/03/30 18:35:38 Max file buffer RAM 4.000 GB
+2021/03/30 18:35:38 Max concurrent network operations: 128 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2021/03/30 18:35:38 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2021/03/30 18:35:38 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2021/03/30 18:35:38 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2021/03/30 18:35:38 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2021/03/30 18:35:38 Max open files when downloading: 2147483119 (auto-computed)
+2021/03/30 18:35:38 ISO 8601 START TIME: to copy files that changed after this job started, use the parameter --include-after=2021-03-30T18:35:32Z
+2021/03/30 18:35:38 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2021/03/30 18:35:38 Final job part has been created
+2021/03/30 18:35:38 PERF: primary performance constraint is Unknown. States: T:  0, GRs:  0
+2021/03/30 18:35:38 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/03/30 18:35:38 JobID=3983bc96-ce39-ce46-6a5a-9e50125c8464, credential type: Anonymous
+2021/03/30 18:35:38 scheduling JobID=3983bc96-ce39-ce46-6a5a-9e50125c8464, Part#=0, Transfer#=0, priority=0
+2021/03/30 18:35:38 Final job part has been scheduled
+2021/03/30 18:35:38 INFO: [P#0-T#0] has worker 27 which is processing TRANSFER
+2021/03/30 18:35:39 ==> REQUEST/RESPONSE (Try=1/128.6581ms, OpTime=490.5927ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   DELETE https://elevarbi.blob.core.windows.net/blob-bibrasil/LegoBi/20210325CargaHorariaIBMR.CSV?se=2030-09-11t23%3A59%3A49z&sig=-REDACTED-&sp=rwdlacup&spr=https&srt=sco&ss=bfqt&st=2019-10-04t14%3A59%3A49z&sv=2018-03-28&timeout=901
+   X-Ms-Request-Id: [5e0872bd-301e-00e3-2b93-253efa000000]
+
+2021/03/30 18:35:39 INFO: [P#0-T#0] DELETE SUCCESSFUL: 
+2021/03/30 18:35:39 JobID=3983bc96-ce39-ce46-6a5a-9e50125c8464, Part#=0, TransfersDone=1 of 1
+2021/03/30 18:35:39 all parts of entire Job 3983bc96-ce39-ce46-6a5a-9e50125c8464 successfully completed, cancelled or paused
+2021/03/30 18:35:40 PERF: primary performance constraint is Unknown. States: T:  0, GRs: 128

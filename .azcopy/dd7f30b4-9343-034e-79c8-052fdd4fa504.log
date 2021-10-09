@@ -1,0 +1,38 @@
+2021/01/29 19:34:49 AzcopyVersion  10.7.0
+2021/01/29 19:34:49 OS-Environment  windows
+2021/01/29 19:34:49 OS-Architecture  amd64
+2021/01/29 19:34:49 Log times are in UTC. Local time is 29 Jan 2021 16:34:49
+2021/01/29 19:34:49 Job-Command copy https://elevarbi.blob.core.windows.net/blob-bibrasil/LegoBi/20210129CampusPredioSalaUNIFG.CSV?se=2030-09-11t23%3A59%3A49z&sig=-REDACTED-&sp=rwdlacup&spr=https&srt=sco&ss=bfqt&st=2019-10-04t14%3A59%3A49z&sv=2018-03-28 C:\Users\jdlacerda\Desktop\20210129CampusPredioSalaUNIFG.CSV --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --recursive 
+2021/01/29 19:34:49 Number of CPUs: 8
+2021/01/29 19:34:49 Max file buffer RAM 4.000 GB
+2021/01/29 19:34:49 Max concurrent network operations: 128 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2021/01/29 19:34:49 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2021/01/29 19:34:49 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2021/01/29 19:34:49 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2021/01/29 19:34:49 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2021/01/29 19:34:49 Max open files when downloading: 2147483119 (auto-computed)
+2021/01/29 19:34:49 ISO 8601 START TIME: to copy files that changed after this job started, use the parameter --include-after=2021-01-29T19:34:43Z
+2021/01/29 19:34:49 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2021/01/29 19:34:49 Final job part has been created
+2021/01/29 19:34:49 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  9
+2021/01/29 19:34:49 JobID=dd7f30b4-9343-034e-79c8-052fdd4fa504, credential type: Anonymous
+2021/01/29 19:34:49 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/01/29 19:34:49 scheduling JobID=dd7f30b4-9343-034e-79c8-052fdd4fa504, Part#=0, Transfer#=0, priority=0
+2021/01/29 19:34:49 Final job part has been scheduled
+2021/01/29 19:34:49 INFO: [P#0-T#0] has worker 39 which is processing TRANSFER
+2021/01/29 19:34:51 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 128
+2021/01/29 19:34:51 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/01/29 19:34:53 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 128
+2021/01/29 19:34:53 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/01/29 19:34:55 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 128
+2021/01/29 19:34:55 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/01/29 19:34:57 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 128
+2021/01/29 19:34:57 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2021/01/29 19:34:59 ERR: [P#0-T#0] DOWNLOADFAILED: https://elevarbi.blob.core.windows.net/blob-bibrasil/LegoBi/20210129CampusPredioSalaUNIFG.CSV?se=2030-09-11t23%3A59%3A49z&sig=-REDACTED-&sp=rwdlacup&spr=https&srt=sco&ss=bfqt&st=2019-10-04t14%3A59%3A49z&sv=2018-03-28 : 000 : File Creation Error destination file has no known flags that could cause issue (current set: 20) and azcopy was unable to clear the flag(s), so access will be denied: O arquivo já está sendo usado por outro processo.
+   Dst: %5C%5C?\C:\Users\jdlacerda\Desktop\20210129CampusPredioSalaUNIFG.CSV
+2021/01/29 19:34:59 INFO: [P#0-T#0] https://elevarbi.blob.core.windows.net/blob-bibrasil/LegoBi/20210129CampusPredioSalaUNIFG.CSV?se=2030-09-11t23%3A59%3A49z&sig=-REDACTED-&sp=rwdlacup&spr=https&srt=sco&ss=bfqt&st=2019-10-04t14%3A59%3A49z&sv=2018-03-28 Deleting incomplete destination file Dst: %5C%5C?\C:\Users\jdlacerda\Desktop\20210129CampusPredioSalaUNIFG.CSV
+2021/01/29 19:34:59 ERR: [P#0-T#0] %5C%5C?\C:\Users\jdlacerda\Desktop\20210129CampusPredioSalaUNIFG.CSV: 0: Delete File Error -remove \\?\C:\Users\jdlacerda\Desktop\20210129CampusPredioSalaUNIFG.CSV: O arquivo já está sendo usado por outro processo.. X-Ms-Request-Id:
+
+2021/01/29 19:34:59 JobID=dd7f30b4-9343-034e-79c8-052fdd4fa504, Part#=0, TransfersDone=1 of 1
+2021/01/29 19:34:59 all parts of entire Job dd7f30b4-9343-034e-79c8-052fdd4fa504 successfully completed, cancelled or paused
+2021/01/29 19:34:59 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 128

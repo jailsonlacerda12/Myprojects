@@ -1,0 +1,9 @@
+2021/05/04 22:36:38 AzcopyVersion  10.10.0
+2021/05/04 22:36:38 OS-Environment  windows
+2021/05/04 22:36:38 OS-Architecture  amd64
+2021/05/04 22:36:38 Log times are in UTC. Local time is 4 May 2021 19:36:38
+2021/05/04 22:36:38 ==> REQUEST/RESPONSE (Try=1/129.3546ms, OpTime=533.2429ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://elevarbi.blob.core.windows.net/blob-bibrasil/LegoBi/20210428CargaHorariaExtraClasseANHEMBIMORUMBI.CSV?se=2030-09-11t23%3A59%3A49z&sig=-REDACTED-&sp=rwdlacup&spr=https&srt=sco&ss=bfqt&st=2019-10-04t14%3A59%3A49z&sv=2018-03-28&timeout=901
+   X-Ms-Request-Id: [38b91d5c-701e-0082-4035-417a25000000]
+
+2021/05/04 22:36:40 Closing Log
