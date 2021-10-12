@@ -39,8 +39,8 @@ export default {
         },
         {
         titulo: "Time Participante",
-        nome: "São Paulo",
-        local: "Morumbi",  
+        nome: "Sntos",
+        local: "Vila Belmiro",  
         },]
     }
   }
